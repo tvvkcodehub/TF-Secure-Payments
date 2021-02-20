@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="dataOfBirth" optional="YES" attributeType="Transformable" customClassName="TSEncryptedDataTransformer"/>
+        <attribute name="email" optional="YES" attributeType="Transformable" customClassName="TSEncryptedDataTransformer"/>
+        <attribute name="password" optional="YES" attributeType="Transformable" customClassName="TSEncryptedDataTransformer"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="Transformable" customClassName="TSEncryptedDataTransformer"/>
+        <attribute name="userId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="TSEncryptedDataTransformer"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-1930.091003417969" positionY="-1115.911834716797" width="128" height="133"/>
+    </elements>
+</model>

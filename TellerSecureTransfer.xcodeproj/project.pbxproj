@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3231EF25E0CEEB0045B044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3231EE25E0CEEB0045B044 /* AppDelegate.swift */; };
+		9F3231F825E0CEED0045B044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3231F725E0CEED0045B044 /* Assets.xcassets */; };
+		9F3231FB25E0CEED0045B044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3231F925E0CEED0045B044 /* LaunchScreen.storyboard */; };
+		9F32321225E0CFD80045B044 /* TSApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32321125E0CFD80045B044 /* TSApplicationController.swift */; };
+		9F32321725E0D0090045B044 /* TSSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32321525E0D0090045B044 /* TSSplashViewController.swift */; };
+		9F32321825E0D0090045B044 /* TSSplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F32321625E0D0090045B044 /* TSSplashViewController.xib */; };
+		9F32321C25E0D0190045B044 /* TSPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32321A25E0D0190045B044 /* TSPaymentViewController.swift */; };
+		9F32321D25E0D0190045B044 /* TSPaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F32321B25E0D0190045B044 /* TSPaymentViewController.xib */; };
+		9F32322125E0D0280045B044 /* TSRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32321F25E0D0280045B044 /* TSRegisterViewController.swift */; };
+		9F32322225E0D0280045B044 /* TSRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F32322025E0D0280045B044 /* TSRegisterViewController.xib */; };
+		9F32322625E0D0330045B044 /* TSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32322425E0D0330045B044 /* TSLoginViewController.swift */; };
+		9F32322725E0D0330045B044 /* TSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F32322525E0D0330045B044 /* TSLoginViewController.xib */; };
+		9F32322A25E0D0480045B044 /* TSExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32322925E0D0480045B044 /* TSExtensions.swift */; };
+		9F32322D25E0D0580045B044 /* TSAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32322C25E0D0580045B044 /* TSAppConstants.swift */; };
+		9F32323025E0D06B0045B044 /* TSCommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32322F25E0D06B0045B044 /* TSCommonFunctions.swift */; };
+		9F32323F25E102B50045B044 /* TS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F32323D25E102B50045B044 /* TS.xcdatamodeld */; };
+		9F32324525E102E50045B044 /* TSCoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32324425E102E50045B044 /* TSCoreDataController.swift */; };
+		9F32325125E116810045B044 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32324F25E116810045B044 /* User+CoreDataProperties.swift */; };
+		9F32325225E116810045B044 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32325025E116810045B044 /* User+CoreDataClass.swift */; };
+		9F32326B25E13D5E0045B044 /* TSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32326A25E13D5E0045B044 /* TSUser.swift */; };
+		9F32327525E150740045B044 /* TSDatePickerPopOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F32327325E150740045B044 /* TSDatePickerPopOverController.swift */; };
+		9F32327625E150740045B044 /* TSDatePickerPopOverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F32327425E150740045B044 /* TSDatePickerPopOverController.xib */; };
+		9F9BD78725E185270005792A /* TSEncryptedDataTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BD78625E185270005792A /* TSEncryptedDataTransformer.swift */; };
+		C7AFEEEEDD2F28F33C6244AC /* Pods_TellerSecureTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA21BAD1BAC4D7C1D2AFF0F /* Pods_TellerSecureTransfer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172E4CE58552B7C5E96796B5 /* Pods-TellerSecureTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellerSecureTransfer.release.xcconfig"; path = "Target Support Files/Pods-TellerSecureTransfer/Pods-TellerSecureTransfer.release.xcconfig"; sourceTree = "<group>"; };
+		9F3231EB25E0CEEB0045B044 /* TellerSecureTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellerSecureTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3231EE25E0CEEB0045B044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F3231F725E0CEED0045B044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F3231FA25E0CEED0045B044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F3231FC25E0CEED0045B044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F32321125E0CFD80045B044 /* TSApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSApplicationController.swift; sourceTree = "<group>"; };
+		9F32321525E0D0090045B044 /* TSSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSplashViewController.swift; sourceTree = "<group>"; };
+		9F32321625E0D0090045B044 /* TSSplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSSplashViewController.xib; sourceTree = "<group>"; };
+		9F32321A25E0D0190045B044 /* TSPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSPaymentViewController.swift; sourceTree = "<group>"; };
+		9F32321B25E0D0190045B044 /* TSPaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSPaymentViewController.xib; sourceTree = "<group>"; };
+		9F32321F25E0D0280045B044 /* TSRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSRegisterViewController.swift; sourceTree = "<group>"; };
+		9F32322025E0D0280045B044 /* TSRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSRegisterViewController.xib; sourceTree = "<group>"; };
+		9F32322425E0D0330045B044 /* TSLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSLoginViewController.swift; sourceTree = "<group>"; };
+		9F32322525E0D0330045B044 /* TSLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSLoginViewController.xib; sourceTree = "<group>"; };
+		9F32322925E0D0480045B044 /* TSExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSExtensions.swift; sourceTree = "<group>"; };
+		9F32322C25E0D0580045B044 /* TSAppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSAppConstants.swift; sourceTree = "<group>"; };
+		9F32322F25E0D06B0045B044 /* TSCommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSCommonFunctions.swift; sourceTree = "<group>"; };
+		9F32323E25E102B50045B044 /* TS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TS.xcdatamodel; sourceTree = "<group>"; };
+		9F32324425E102E50045B044 /* TSCoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSCoreDataController.swift; sourceTree = "<group>"; };
+		9F32324F25E116810045B044 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F32325025E116810045B044 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F32326A25E13D5E0045B044 /* TSUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSUser.swift; sourceTree = "<group>"; };
+		9F32327325E150740045B044 /* TSDatePickerPopOverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSDatePickerPopOverController.swift; sourceTree = "<group>"; };
+		9F32327425E150740045B044 /* TSDatePickerPopOverController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSDatePickerPopOverController.xib; sourceTree = "<group>"; };
+		9F9BD78625E185270005792A /* TSEncryptedDataTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSEncryptedDataTransformer.swift; sourceTree = "<group>"; };
+		A60D7BB911EDA60724E8264A /* Pods-TellerSecureTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellerSecureTransfer.debug.xcconfig"; path = "Target Support Files/Pods-TellerSecureTransfer/Pods-TellerSecureTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA21BAD1BAC4D7C1D2AFF0F /* Pods_TellerSecureTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TellerSecureTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F3231E825E0CEEB0045B044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AFEEEEDD2F28F33C6244AC /* Pods_TellerSecureTransfer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28ED9D3A146A19922C6A8925 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA21BAD1BAC4D7C1D2AFF0F /* Pods_TellerSecureTransfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DB28914209AA5E6F4358F19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60D7BB911EDA60724E8264A /* Pods-TellerSecureTransfer.debug.xcconfig */,
+				172E4CE58552B7C5E96796B5 /* Pods-TellerSecureTransfer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F3231E225E0CEEB0045B044 = {
+			isa = PBXGroup;
+			children = (
+				9F3231ED25E0CEEB0045B044 /* TellerSecureTransfer */,
+				9F3231EC25E0CEEB0045B044 /* Products */,
+				6DB28914209AA5E6F4358F19 /* Pods */,
+				28ED9D3A146A19922C6A8925 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F3231EC25E0CEEB0045B044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F3231EB25E0CEEB0045B044 /* TellerSecureTransfer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F3231ED25E0CEEB0045B044 /* TellerSecureTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				9F32327125E150590045B044 /* PopOvers */,
+				9F32326925E13D530045B044 /* Data Models */,
+				9F32323925E102970045B044 /* Core Data */,
+				9F32320925E0CF9C0045B044 /* Application Controller */,
+				9F32320A25E0CF9C0045B044 /* Utilities */,
+				9F32320425E0CF9C0045B044 /* View Controllers */,
+				9F3231EE25E0CEEB0045B044 /* AppDelegate.swift */,
+				9F3231F725E0CEED0045B044 /* Assets.xcassets */,
+				9F3231F925E0CEED0045B044 /* LaunchScreen.storyboard */,
+				9F3231FC25E0CEED0045B044 /* Info.plist */,
+			);
+			path = TellerSecureTransfer;
+			sourceTree = "<group>";
+		};
+		9F32320425E0CF9C0045B044 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F32320525E0CF9C0045B044 /* Splash */,
+				9F32320625E0CF9C0045B044 /* Payment */,
+				9F32320725E0CF9C0045B044 /* Register */,
+				9F32320825E0CF9C0045B044 /* Login */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F32320525E0CF9C0045B044 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				9F32321525E0D0090045B044 /* TSSplashViewController.swift */,
+				9F32321625E0D0090045B044 /* TSSplashViewController.xib */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		9F32320625E0CF9C0045B044 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				9F32321A25E0D0190045B044 /* TSPaymentViewController.swift */,
+				9F32321B25E0D0190045B044 /* TSPaymentViewController.xib */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		9F32320725E0CF9C0045B044 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				9F32321F25E0D0280045B044 /* TSRegisterViewController.swift */,
+				9F32322025E0D0280045B044 /* TSRegisterViewController.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		9F32320825E0CF9C0045B044 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F32322425E0D0330045B044 /* TSLoginViewController.swift */,
+				9F32322525E0D0330045B044 /* TSLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9F32320925E0CF9C0045B044 /* Application Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F32321125E0CFD80045B044 /* TSApplicationController.swift */,
+			);
+			path = "Application Controller";
+			sourceTree = "<group>";
+		};
+		9F32320A25E0CF9C0045B044 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9F32320B25E0CF9C0045B044 /* Constants */,
+				9F32320C25E0CF9C0045B044 /* Extensions */,
+				9F32320D25E0CF9C0045B044 /* Common */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		9F32320B25E0CF9C0045B044 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9F32322C25E0D0580045B044 /* TSAppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9F32320C25E0CF9C0045B044 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F32322925E0D0480045B044 /* TSExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9F32320D25E0CF9C0045B044 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9F32322F25E0D06B0045B044 /* TSCommonFunctions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9F32323925E102970045B044 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				9F9BD78125E183DF0005792A /* Encryption */,
+				9F32323A25E102970045B044 /* Core Data Entities */,
+				9F32323B25E102970045B044 /* Core Data Model */,
+				9F32323C25E102970045B044 /* Core Data Controller */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		9F32323A25E102970045B044 /* Core Data Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9F32325025E116810045B044 /* User+CoreDataClass.swift */,
+				9F32324F25E116810045B044 /* User+CoreDataProperties.swift */,
+			);
+			path = "Core Data Entities";
+			sourceTree = "<group>";
+		};
+		9F32323B25E102970045B044 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F32323D25E102B50045B044 /* TS.xcdatamodeld */,
+			);
+			path = "Core Data Model";
+			sourceTree = "<group>";
+		};
+		9F32323C25E102970045B044 /* Core Data Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F32324425E102E50045B044 /* TSCoreDataController.swift */,
+			);
+			path = "Core Data Controller";
+			sourceTree = "<group>";
+		};
+		9F32326925E13D530045B044 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F32326A25E13D5E0045B044 /* TSUser.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		9F32327125E150590045B044 /* PopOvers */ = {
+			isa = PBXGroup;
+			children = (
+				9F32327225E150590045B044 /* Calendar PopOver */,
+			);
+			path = PopOvers;
+			sourceTree = "<group>";
+		};
+		9F32327225E150590045B044 /* Calendar PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				9F32327325E150740045B044 /* TSDatePickerPopOverController.swift */,
+				9F32327425E150740045B044 /* TSDatePickerPopOverController.xib */,
+			);
+			path = "Calendar PopOver";
+			sourceTree = "<group>";
+		};
+		9F9BD78125E183DF0005792A /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				9F9BD78625E185270005792A /* TSEncryptedDataTransformer.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F3231EA25E0CEEB0045B044 /* TellerSecureTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3231FF25E0CEED0045B044 /* Build configuration list for PBXNativeTarget "TellerSecureTransfer" */;
+			buildPhases = (
+				0C981927AF15A6E563D756D0 /* [CP] Check Pods Manifest.lock */,
+				9F3231E725E0CEEB0045B044 /* Sources */,
+				9F3231E825E0CEEB0045B044 /* Frameworks */,
+				9F3231E925E0CEEB0045B044 /* Resources */,
+				382C88CBF8FD952B6DDBA45C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TellerSecureTransfer;
+			productName = TellerSecureTransfer;
+			productReference = 9F3231EB25E0CEEB0045B044 /* TellerSecureTransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F3231E325E0CEEB0045B044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9F3231EA25E0CEEB0045B044 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 9F3231E625E0CEEB0045B044 /* Build configuration list for PBXProject "TellerSecureTransfer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F3231E225E0CEEB0045B044;
+			productRefGroup = 9F3231EC25E0CEEB0045B044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F3231EA25E0CEEB0045B044 /* TellerSecureTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F3231E925E0CEEB0045B044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F32327625E150740045B044 /* TSDatePickerPopOverController.xib in Resources */,
+				9F32321D25E0D0190045B044 /* TSPaymentViewController.xib in Resources */,
+				9F32322725E0D0330045B044 /* TSLoginViewController.xib in Resources */,
+				9F3231FB25E0CEED0045B044 /* LaunchScreen.storyboard in Resources */,
+				9F32322225E0D0280045B044 /* TSRegisterViewController.xib in Resources */,
+				9F32321825E0D0090045B044 /* TSSplashViewController.xib in Resources */,
+				9F3231F825E0CEED0045B044 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C981927AF15A6E563D756D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TellerSecureTransfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		382C88CBF8FD952B6DDBA45C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TellerSecureTransfer/Pods-TellerSecureTransfer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TellerSecureTransfer/Pods-TellerSecureTransfer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TellerSecureTransfer/Pods-TellerSecureTransfer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F3231E725E0CEEB0045B044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F32322A25E0D0480045B044 /* TSExtensions.swift in Sources */,
+				9F32321C25E0D0190045B044 /* TSPaymentViewController.swift in Sources */,
+				9F32325125E116810045B044 /* User+CoreDataProperties.swift in Sources */,
+				9F32325225E116810045B044 /* User+CoreDataClass.swift in Sources */,
+				9F32321725E0D0090045B044 /* TSSplashViewController.swift in Sources */,
+				9F3231EF25E0CEEB0045B044 /* AppDelegate.swift in Sources */,
+				9F32322D25E0D0580045B044 /* TSAppConstants.swift in Sources */,
+				9F32322625E0D0330045B044 /* TSLoginViewController.swift in Sources */,
+				9F32324525E102E50045B044 /* TSCoreDataController.swift in Sources */,
+				9F32323F25E102B50045B044 /* TS.xcdatamodeld in Sources */,
+				9F9BD78725E185270005792A /* TSEncryptedDataTransformer.swift in Sources */,
+				9F32323025E0D06B0045B044 /* TSCommonFunctions.swift in Sources */,
+				9F32321225E0CFD80045B044 /* TSApplicationController.swift in Sources */,
+				9F32322125E0D0280045B044 /* TSRegisterViewController.swift in Sources */,
+				9F32326B25E13D5E0045B044 /* TSUser.swift in Sources */,
+				9F32327525E150740045B044 /* TSDatePickerPopOverController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F3231F925E0CEED0045B044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3231FA25E0CEED0045B044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F3231FD25E0CEED0045B044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F3231FE25E0CEED0045B044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F32320025E0CEED0045B044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60D7BB911EDA60724E8264A /* Pods-TellerSecureTransfer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TellerSecureTransfer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tellerfintech.TellerSecureTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9F32320125E0CEED0045B044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172E4CE58552B7C5E96796B5 /* Pods-TellerSecureTransfer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TellerSecureTransfer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tellerfintech.TellerSecureTransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F3231E625E0CEEB0045B044 /* Build configuration list for PBXProject "TellerSecureTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3231FD25E0CEED0045B044 /* Debug */,
+				9F3231FE25E0CEED0045B044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F3231FF25E0CEED0045B044 /* Build configuration list for PBXNativeTarget "TellerSecureTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F32320025E0CEED0045B044 /* Debug */,
+				9F32320125E0CEED0045B044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F32323D25E102B50045B044 /* TS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F32323E25E102B50045B044 /* TS.xcdatamodel */,
+			);
+			currentVersion = 9F32323E25E102B50045B044 /* TS.xcdatamodel */;
+			path = TS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F3231E325E0CEEB0045B044 /* Project object */;
+}
